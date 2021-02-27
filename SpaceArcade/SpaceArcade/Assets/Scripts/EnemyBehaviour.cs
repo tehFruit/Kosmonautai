@@ -16,6 +16,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float moveBackDistanceFromPlayer = 4;
 
 
+
     // Private variables:
     // True if player's y and enemy's y difference is less than rangeDiameter.
     bool withinRangeY;
