@@ -395,6 +395,7 @@ GameObject:
   - component: {fileID: 1693747430}
   - component: {fileID: 1693747429}
   - component: {fileID: 1693747432}
+  - component: {fileID: 1693747433}
   m_Layer: 0
   m_Name: enemy_ship
   m_TagString: Untagged
@@ -501,8 +502,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 702138485}
-  movementSpeed: 0.04
+  movementSpeed: 0.06
   rb: {fileID: 1693747429}
   rangeDiameter: 0.1
-  neededDistanceFromPlayer: 5
-  moveBackDistanceFromPlayer: 4
+  neededDistanceFromPlayer: 7
+  moveBackDistanceFromPlayer: 6
+--- !u!114 &1693747433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693747428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a249afa6e1795243aec632e365c5fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
