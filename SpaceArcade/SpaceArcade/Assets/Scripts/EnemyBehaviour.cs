@@ -37,8 +37,8 @@ public class EnemyBehaviour : MonoBehaviour
             withinRangeY = false;
         }
 
-        Debug.Log(Mathf.Abs(currDistFromPlayerX) + " < " + moveBackDistanceFromPlayer);  
-        Debug.Log(Mathf.Abs(currDistFromPlayerX) + " > " + neededDistanceFromPlayer);  
+        //Debug.Log(Mathf.Abs(currDistFromPlayerX) + " < " + moveBackDistanceFromPlayer);  
+        //Debug.Log(Mathf.Abs(currDistFromPlayerX) + " > " + neededDistanceFromPlayer);  
         if (currDistFromPlayerX <= 0){
             if (Mathf.Abs(currDistFromPlayerX) < moveBackDistanceFromPlayer){
                 moveHor = movementSpeed;
