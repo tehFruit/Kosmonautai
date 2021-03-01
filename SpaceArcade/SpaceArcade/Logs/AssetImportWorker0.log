@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 16042 MB
+OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,168 +11,232 @@ C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gytis/Documents/GitHub/Kosmonautai/SpaceArcade/SpaceArcade
+C:/Users/Robertas/Desktop/Unity/Kosmonautai/SpaceArcade/SpaceArcade
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50697
-Successfully changed project path to: C:/Users/gytis/Documents/GitHub/Kosmonautai/SpaceArcade/SpaceArcade
-C:/Users/gytis/Documents/GitHub/Kosmonautai/SpaceArcade/SpaceArcade
+56919
+Successfully changed project path to: C:/Users/Robertas/Desktop/Unity/Kosmonautai/SpaceArcade/SpaceArcade
+C:/Users/Robertas/Desktop/Unity/Kosmonautai/SpaceArcade/SpaceArcade
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gytis/Documents/GitHub/Kosmonautai/SpaceArcade/SpaceArcade/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Robertas/Desktop/Unity/Kosmonautai/SpaceArcade/SpaceArcade/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon (TM) 530 (ID=0x6900)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     4086 MB
-    Driver:   26.20.15026.1
+    VRAM:     4043 MB
+    Driver:   27.21.14.6109
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001520 seconds.
+Registered in 0.001525 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  0.929 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000826 seconds.
+Registered in 0.000919 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002790870F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF01E010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF443010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF52B490 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279085E5630 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF686C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909094020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908FC4020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908FC4020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790870F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908FC4020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFCCAC20 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279093EB030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF905FC0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908FD4040 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF6F8420 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF905FC0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790887E020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB6C060 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF73F2F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279088D2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF389740 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC0FA30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279088D2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908548630 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF52B490 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908B4D890 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF905FC0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF443010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908FD4040 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  0.842 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1860 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.5 MB.
 System memory in use after: 87.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2309.
-Total: 2.698600 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.230100 ms MarkObjects: 2.016400 ms  DeleteObjects: 0.149000 ms)
+Total: 2.026700 ms (FindLiveObjects: 0.150300 ms CreateObjectMapping: 0.081400 ms MarkObjects: 1.698800 ms  DeleteObjects: 0.095400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Fonts/Roboto-BoldItalic.ttf
-  artifactKey: Guid(dba6ca9d125808d48b17c17556a3e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-BoldItalic.ttf using Guid(dba6ca9d125808d48b17c17556a3e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f819d4f4f58d3a15a9df2a5580659') in 0.142788 seconds
-  Import took 0.146715 seconds .
+  path: Assets/Bullet.prefab
+  artifactKey: Guid(02bc6a8103dbe0d459e73097588f4d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bullet.prefab using Guid(02bc6a8103dbe0d459e73097588f4d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cbbf193f4216c59e8a4ecc6415ac98') in 0.099733 seconds
+  Import took 0.102634 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Assets/Fonts/Roboto-Italic.ttf
-  artifactKey: Guid(2c97551df788f58468e5d3608347e1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Italic.ttf using Guid(2c97551df788f58468e5d3608347e1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4bd969f4e1a1968e4383385671e8ed') in 0.021764 seconds
-  Import took 0.026804 seconds .
+  Time since last request: 99.139952 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5ce9dd653db634d4f899f241c1a38e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5ce9dd653db634d4f899f241c1a38e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3d56eace99cfa02f247f1f5e20491') in 0.003147 seconds
+  Import took 0.006316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets/Fonts/Roboto-ThinItalic.ttf
-  artifactKey: Guid(3fb45416815500e4790935bfd10a78c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-ThinItalic.ttf using Guid(3fb45416815500e4790935bfd10a78c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d62a70f505dcaca3dea124add90e95') in 0.021094 seconds
-  Import took 0.025067 seconds .
+  Time since last request: 0.008330 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5ce9dd653db634d4f899f241c1a38e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5ce9dd653db634d4f899f241c1a38e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3d56eace99cfa02f247f1f5e20491') in 0.002771 seconds
+  Import took 0.005773 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Assets/Fonts/Roboto-Medium.ttf
-  artifactKey: Guid(ec09b4d9cc5441047af3bf243d2980d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Medium.ttf using Guid(ec09b4d9cc5441047af3bf243d2980d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053dd89010693ac8278b300a10b7db1b') in 0.021359 seconds
-  Import took 0.025156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Assets/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(9e731b20da05cc44980e9336e2069cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Bold.ttf using Guid(9e731b20da05cc44980e9336e2069cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a4e28e492876cdbc0786f0279fa66') in 0.022564 seconds
-  Import took 0.026180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Assets/Fonts/Roboto-Thin.ttf
-  artifactKey: Guid(bd22afc0764ac784fac00d485c8cda66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Thin.ttf using Guid(bd22afc0764ac784fac00d485c8cda66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3b6c6867631dea19d611953a65baf2') in 0.020377 seconds
-  Import took 0.024328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Assets/Fonts/Roboto-Black.ttf
-  artifactKey: Guid(ce30aae0ca6e6354ea478214d96acd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Black.ttf using Guid(ce30aae0ca6e6354ea478214d96acd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa481197f47f7a2a38eaf3b371f4f3f2') in 0.021233 seconds
-  Import took 0.025399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Assets/Fonts/Roboto-BlackItalic.ttf
-  artifactKey: Guid(652276eaa5fafeb4a8011dd9cd371b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-BlackItalic.ttf using Guid(652276eaa5fafeb4a8011dd9cd371b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e0d0ef21ab72bc75fca08f8c2166a') in 0.018605 seconds
-  Import took 0.023314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Assets/Fonts/Roboto-LightItalic.ttf
-  artifactKey: Guid(12548471021a87243ac0f5c66fa4c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-LightItalic.ttf using Guid(12548471021a87243ac0f5c66fa4c5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b37f03051cc57b6045df7b92e023676') in 0.020489 seconds
-  Import took 0.024562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Assets/Fonts/Roboto-MediumItalic.ttf
-  artifactKey: Guid(b19ce9ee61ddddb4382c93d6f788a88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-MediumItalic.ttf using Guid(b19ce9ee61ddddb4382c93d6f788a88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f020b27ee1616d09cfce10b3df883d49') in 0.019842 seconds
-  Import took 0.023299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Assets/Fonts/Roboto-Light.ttf
-  artifactKey: Guid(b84af60fec9848145962043ca3ff3cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Light.ttf using Guid(b84af60fec9848145962043ca3ff3cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8733b987b4a1c39a70f278f30fb3a1') in 0.020376 seconds
-  Import took 0.023349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Assets/Fonts/Roboto-Regular.ttf
-  artifactKey: Guid(b98a64eb293cfbb40892151359818c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fonts/Roboto-Regular.ttf using Guid(b98a64eb293cfbb40892151359818c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961e3f4d91c224ef341e9423e1ebe07a') in 0.021424 seconds
-  Import took 0.024789 seconds .
+  Time since last request: 1.104190 seconds.
+  path: Assets/Scenes/Meniu.unity
+  artifactKey: Guid(07b5936be25485e4c84f9a06b799dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Meniu.unity using Guid(07b5936be25485e4c84f9a06b799dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29ad1a14cbd4b3a63ed94db71ae33cd') in 0.004763 seconds
+  Import took 0.010155 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000857 seconds.
+Registered in 0.000876 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000027908307040 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF14F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF306020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B04A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF28F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909EFA010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF24F050 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790925F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907CA4C90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF28F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF578190 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908334A50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF578190 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A23F810 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909EFA010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AFABD80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF53A170 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF39F090 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF6FA020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279086B9010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF306020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF676C20 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790890CE60 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD2E620 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF7515E0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908AC2040 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D63020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908B4DC30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A23F810 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A907A40 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF49C440 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -180,153 +244,792 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 2.565800 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.121300 ms  DeleteObjects: 0.040200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790870F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF18A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907D44D00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8AEA80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279094084F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907CA4C90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279094084F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC0BA20 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790842B080 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279094084F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC91000 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC7CFD0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AD9E7C0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279094084F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D36070 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D36070 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908741E40 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D36070 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABFD0F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A6ED050 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909766020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907D44D00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF676C20 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ADA1360 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC9E710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909A44D60 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB0D840 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFAED080 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908B4DE00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D36070 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF7E90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF49C440 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 2.171300 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.077300 ms MarkObjects: 1.797800 ms  DeleteObjects: 0.026000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790870F020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF0280 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B1EC0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A9F2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908330020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A9F2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909EE1010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A9F2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC91000 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC7CFD0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF9F5080 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A9F2020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF3E2010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C08A020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A5254B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF3E2010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABFD0F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908854030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4B9A70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908854030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ADA1360 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD2E5F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF5DAC90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF381730 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF61F7B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908B4DE00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF3E2010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A907A40 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF49C440 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 2.401700 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.176300 ms MarkObjects: 1.818100 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.554564 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378500bb4d94b07650e681ae0f1808ae') in 0.015181 seconds
+  Import took 0.018567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790834B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF0D90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907D44CE0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B11B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790986E060 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908904010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909B8D010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC0BA20 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790842B080 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790986E060 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907DEF010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABDBE30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908703030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908703030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A5254B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908703030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABFD0F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4B9A70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907D44CE0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908988030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279097B4270 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909B9FEB0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908AC2040 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFADD0A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908B4E1A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908703030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABDBE30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF49C440 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 1.763500 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.509300 ms  DeleteObjects: 0.023300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 754.319717 seconds.
+  path: Assets/Background
+  artifactKey: Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background using Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f331ede394651b5ecd1dd86c72c7832') in 0.010595 seconds
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005182 seconds.
+  path: Assets/Background
+  artifactKey: Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background using Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f331ede394651b5ecd1dd86c72c7832') in 0.002348 seconds
+  Import took 0.005846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.107550 seconds.
+  path: Assets/Background/1.png
+  artifactKey: Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/1.png using Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab5796b7c5d6c11f9f6d1e1a967bb86') in 0.122852 seconds
+  Import took 0.126332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Background/2.png
+  artifactKey: Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/2.png using Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05c1765685ce5238839cf0c114cbd01') in 0.027559 seconds
+  Import took 0.031686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Background/BG.jpg
+  artifactKey: Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/BG.jpg using Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e0f87e053afb1c6f9393fb465d6133') in 0.025778 seconds
+  Import took 0.029590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001167 seconds.
+  path: Assets/Background/BG.jpg
+  artifactKey: Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/BG.jpg using Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e0f87e053afb1c6f9393fb465d6133') in 0.017028 seconds
+  Import took 0.021221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.283373 seconds.
+  path: Assets/Assets/shot_sprite.png
+  artifactKey: Guid(7d64f9cffc24c8547a155a43c17853d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/shot_sprite.png using Guid(7d64f9cffc24c8547a155a43c17853d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f70138ce3310de82e2d10e5d5da36f9') in 0.017114 seconds
+  Import took 0.020487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.199795 seconds.
+  path: Assets/Gameplay_BG
+  artifactKey: Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG using Guid(a0f9bd86123ac974c9bed8d7fcfc389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed083577a68becae0cd0fd33239e92ab') in 0.007915 seconds
+  Import took 0.010925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.559623 seconds.
+  path: Assets/Gameplay_BG/2.png
+  artifactKey: Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/2.png using Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d0f17bfbfdecadf64019fff273180') in 0.046616 seconds
+  Import took 0.050155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Gameplay_BG/BG.jpg
+  artifactKey: Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/BG.jpg using Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f7dded60a48473017dca5da39a6c80') in 0.051980 seconds
+  Import took 0.055324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.968927 seconds.
+  path: Assets/Gameplay_BG/1.png
+  artifactKey: Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/1.png using Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1ca3191a1f0526fbb7b5ee8bb8027') in 0.030551 seconds
+  Import took 0.034125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.400593 seconds.
+  path: Assets/Gameplay_BG/BG.jpg
+  artifactKey: Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/BG.jpg using Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b96863add313489ab0756cdfd2f886') in 0.015939 seconds
+  Import took 0.019606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.476596 seconds.
+  path: Assets/Gameplay_BG/Materials
+  artifactKey: Guid(53ec709c8d08ff645bf33b9e5251169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/Materials using Guid(53ec709c8d08ff645bf33b9e5251169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45753ca920e04aab3ea5f4077bee7aaf') in 0.008766 seconds
+  Import took 0.011867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073145 seconds.
+  path: Assets/Gameplay_BG/Materials/1.mat
+  artifactKey: Guid(acb1b71107ca9de4bb18f9c8454f426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/Materials/1.mat using Guid(acb1b71107ca9de4bb18f9c8454f426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a1dd9f4a7b0e7891b509e05f1a4ef8') in 0.061760 seconds
+  Import took 0.065108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Gameplay_BG/Materials/2.mat
+  artifactKey: Guid(b39fe228469666c46997d911f285db01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/Materials/2.mat using Guid(b39fe228469666c46997d911f285db01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f14cb82bebb3591442008fa161db79') in 0.021725 seconds
+  Import took 0.024349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Gameplay_BG/Materials/BG.mat
+  artifactKey: Guid(ec757518ea0fcdd42a5ca25e212ea2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/Materials/BG.mat using Guid(ec757518ea0fcdd42a5ca25e212ea2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1874814a7b5f10490a79d7d4ddb13f17') in 0.026069 seconds
+  Import took 0.028838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.221382 seconds.
+  path: Assets/Gameplay_BG/BG.jpg
+  artifactKey: Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/BG.jpg using Guid(8989672d4a2050743a94ba7e6a2b5b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5f9c2032fcd23afd732f6952a69512') in 0.021480 seconds
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010461 seconds.
+  path: Assets/Gameplay_BG/1.png
+  artifactKey: Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/1.png using Guid(6815aec18cc7a29468beba27aa4f8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982e63915d72d1de4e235550cc9c3f7f') in 0.017947 seconds
+  Import took 0.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Gameplay_BG/2.png
+  artifactKey: Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gameplay_BG/2.png using Guid(286815a887202fe4f9c1f038c4242720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58531ba7a2c0a6a89e14ead8d3fc1b66') in 0.020918 seconds
+  Import took 0.024797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.252923 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6fb5183220a0a3b46bff2b857d399f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6fb5183220a0a3b46bff2b857d399f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e977e5d7737959fc5bd2cc9f9913f395') in 0.007181 seconds
+  Import took 0.010775 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000931 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790834B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF1140 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C276FF0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B04A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908330020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF7CD010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907CA4C90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC7CFD0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C276FF0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790B14B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790B14B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1CE00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790B14B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABFD0F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4B9A70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AD0D1F0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909327D40 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279097B4F70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1DD80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B3CE90 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF356E50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790B14B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF49C440 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.6 MB.
 System memory in use after: 89.7 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2356.
-Total: 2.060600 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.737900 ms  DeleteObjects: 0.016300 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 2.481400 ms (FindLiveObjects: 0.428900 ms CreateObjectMapping: 0.210300 ms MarkObjects: 1.823800 ms  DeleteObjects: 0.017200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000886 seconds.
+Registered in 0.001191 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002790AC04ED0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF18A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC97020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8AF790 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A3C4010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790931E020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AD45900 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1DD80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A3C4010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027907DEF010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC97020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AD45900 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF737F00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF7D5020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A5254B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF737F00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AADC020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4B9A70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C25B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFC97020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A5BAD30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C48B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1DD80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFADD0A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF356E50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF737F00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD00C30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.884 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.6 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.423300 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.010800 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2362.
-Total: 2.923400 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.496000 ms  DeleteObjects: 0.021600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000855 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2365.
-Total: 2.628300 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 0.125800 ms MarkObjects: 2.062900 ms  DeleteObjects: 0.017000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 2.354400 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.951600 ms  DeleteObjects: 0.019500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000922 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 2.098500 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.780300 ms  DeleteObjects: 0.021000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000916 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 2.554900 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.164900 ms MarkObjects: 1.951300 ms  DeleteObjects: 0.017700 ms)
+Total: 2.047700 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.743200 ms  DeleteObjects: 0.034000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790834B020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABF09E0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B11B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A3C4010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790931E020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D3DE80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFB15850 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C074020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A3C4010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC7CFD0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027909D3DE80 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFBAE010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A436020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1CE00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C976020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF53A170 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C920020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CB78050 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C920020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908797010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A2B9710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4B9A70 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C074020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000279084340A0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF356E50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFBAE010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C074020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 1.743100 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.477500 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001148 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002790C6BF030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABEFED0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8B11B0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C67D010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790931E020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF4FB010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF53A170 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF447130 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C67D010 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A8E0A30 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790AC7CFD0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C26B030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A436020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027908703030 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027918B1E8E0 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A436020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF53A170 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C920020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CB78050 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFFD0CC50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790C920020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF737F00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A2B9710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790CB78050 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF447130 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A244B00 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF356E50 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790A436020 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002790ABA0710 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027AFF447130 doesn't match image C:\Users\Robertas\Desktop\Unity\Kosmonautai\SpaceArcade\SpaceArcade\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 1.688100 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.442200 ms  DeleteObjects: 0.029100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
