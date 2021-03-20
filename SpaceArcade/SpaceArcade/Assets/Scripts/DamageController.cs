@@ -18,6 +18,8 @@ public class DamageController : MonoBehaviour
 
     int score = 0;
     public Text scoreText;
+
+    public SpriteRenderer sprite;
  
     void Start()
     {
@@ -34,8 +36,14 @@ public class DamageController : MonoBehaviour
         /*if (obj.gameObject.tag == "Enemy")
             health--;*/
 
-        health--;
+        if(obj.gameObject.tag == "Bullet")
+        {
+            Destroy(obj.gameObject);
+        }
 
+        health--;
+        StartCoroutine(FlashRed());
+        
         invulnerabilityTimer = 0.5f;
         gameObject.layer = 6;
     }
@@ -88,5 +96,12 @@ public class DamageController : MonoBehaviour
 
         if (gameObject.tag == "Player")
             Debug.Log("Death"); // Death screen goes here
+    }
+
+    public IEnumerator FlashRed()
+    {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        sprite.color = Color.white;
     }
 }
