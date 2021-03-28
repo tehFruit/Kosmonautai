@@ -15,7 +15,7 @@ public class EnemyBehaviour : MonoBehaviour
     public float bulletRange = 2;
     public float neededDistanceFromPlayer = 6;
     public float moveBackDistanceFromPlayer = 4;
-    public Transform[] bullets_transforms;
+    public Transform[] bullets_transforms = null;
 
 
 
@@ -26,6 +26,24 @@ public class EnemyBehaviour : MonoBehaviour
     float moveVer;
 
     void Update(){
+        // Array of bullet objects
+        // GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+
+        // // Array of those bullet object positions
+        // bullets_transforms = new Transform[bullets.Length];
+
+        // // Copy the positions of the bullets array into the positions array
+        // if (bullets.Length != 0){
+        // for(int i = 0; i < bullets.Length; i++){
+        //     bullets_transforms[i] = bullets[i].transform;
+        // }
+        // } else{
+        //     bullets_transforms = null;
+        // }
+    }
+
+    void FixedUpdate()
+    {
         // Array of bullet objects
         GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
 
@@ -40,10 +58,6 @@ public class EnemyBehaviour : MonoBehaviour
         } else{
             bullets_transforms = null;
         }
-    }
-
-    void FixedUpdate()
-    {
         // The current distance from player.
         float currDistFromPlayerX = calcDistanceX(new Vector2(player.position.x, player.position.y),
          new Vector2(transform.position.x, transform.position.y));
