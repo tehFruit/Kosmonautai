@@ -91,7 +91,7 @@ public class DamageController : MonoBehaviour
         {
             Destroy(gameObject);
             score++;
-            scoreText.text = score.ToString();
+            //scoreText.text = score.ToString();
         }
             
 

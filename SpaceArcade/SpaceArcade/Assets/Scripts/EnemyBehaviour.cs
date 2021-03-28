@@ -24,6 +24,9 @@ public class EnemyBehaviour : MonoBehaviour
     bool withinRangeY;
     float moveHor;
     float moveVer;
+    void Start(){
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     void Update(){
         // Array of bullet objects
@@ -120,9 +123,9 @@ public class EnemyBehaviour : MonoBehaviour
             Mathf.Abs(GetClosestBullet(bullets_transforms).position.x - transform.position.x) <= bulletRange * 2)
             {
                 if (GetClosestBullet(bullets_transforms).position.y >= transform.position.y){
-                    moveVer = -movementSpeed*1.5f;
+                    moveVer = -movementSpeed*1.2f;
                 }else{
-                    moveVer = movementSpeed*1.5f;
+                    moveVer = movementSpeed*1.2f;
                 }
             } else{
             }
