@@ -10,10 +10,12 @@ public class EnemyBehaviour : MonoBehaviour
     // Movement speed.
     public float movementSpeed = 0.02f;
     public Rigidbody2D rb;
-    // The diameter within which the enemy should stop seeking the player.
-    public float rangeDiameter = 0.1f;
+    // The diameter within which the enemy should stop seeking the player y-wise.
+    public float yRangeDiameter = 0.1f;
+    public float bulletRange = 2;
     public float neededDistanceFromPlayer = 6;
     public float moveBackDistanceFromPlayer = 4;
+    public Transform[] bullets_transforms;
 
 
 
@@ -21,24 +23,50 @@ public class EnemyBehaviour : MonoBehaviour
     // True if player's y and enemy's y difference is less than rangeDiameter.
     bool withinRangeY;
     float moveHor;
+    float moveVer;
+
+    void Update(){
+        // Array of bullet objects
+        GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
+
+        // Array of those bullet object positions
+        bullets_transforms = new Transform[bullets.Length];
+
+        // Copy the positions of the bullets array into the positions array
+        if (bullets.Length != 0){
+        for(int i = 0; i < bullets.Length; i++){
+            bullets_transforms[i] = bullets[i].transform;
+        }
+        } else{
+            bullets_transforms = null;
+        }
+    }
 
     void FixedUpdate()
     {
         // The current distance from player.
         float currDistFromPlayerX = calcDistanceX(new Vector2(player.position.x, player.position.y),
          new Vector2(transform.position.x, transform.position.y));
+        // if (bullets_transforms != null){
+        // if (GetClosestBullet(bullets_transforms).position.y >= transform.position.y){
+        //     moveVer = -1;
+        // }else{
+        //     moveVer = 1;
+        // }
+        // }
 
-        // Check if player is further than the range diameter(y-wise).
-        if (Mathf.Abs(player.position.y - transform.position.y) < rangeDiameter){
+        // Check if player is further than the y range diameter(y-wise).
+        if (Mathf.Abs(player.position.y - transform.position.y) < yRangeDiameter){
+            // Set that the enemy is within range y-wise(player y and enemy y coordinates are almost the same)
             withinRangeY = true;
-            rb.MovePosition(new Vector2(transform.position.x + moveHor,
-                 transform.position.y));
+            // Set the movement of the player only vertical.
+            moveVer = 0;
+            // rb.MovePosition(new Vector2(transform.position.x + moveHor,
+            //      transform.position.y));
         }else{
             withinRangeY = false;
         }
 
-        //Debug.Log(Mathf.Abs(currDistFromPlayerX) + " < " + moveBackDistanceFromPlayer);  
-        //Debug.Log(Mathf.Abs(currDistFromPlayerX) + " > " + neededDistanceFromPlayer);  
         if (currDistFromPlayerX <= 0){
             if (Mathf.Abs(currDistFromPlayerX) < moveBackDistanceFromPlayer){
                 moveHor = movementSpeed;
@@ -61,13 +89,34 @@ public class EnemyBehaviour : MonoBehaviour
         // If the player is not within range, then seek him(y-wise).
         if (!withinRangeY){
             if (transform.position.y < player.position.y){
-                rb.MovePosition(new Vector2(transform.position.x + moveHor,
-                 transform.position.y + (Mathf.Abs(player.position.y - transform.position.y) * movementSpeed)));
+                // rb.MovePosition(new Vector2(transform.position.x + moveHor,
+                //  transform.position.y + (Mathf.Abs(player.position.y - transform.position.y) * movementSpeed)));
+                //moveVer = (Mathf.Abs(player.position.y - transform.position.y) * movementSpeed);
+                moveVer = movementSpeed;
             }else{
-                rb.MovePosition(new Vector2(transform.position.x + moveHor,
-                 transform.position.y - (Mathf.Abs(player.position.y - transform.position.y) * movementSpeed)));
+                // rb.MovePosition(new Vector2(transform.position.x + moveHor,
+                //  transform.position.y - (Mathf.Abs(player.position.y - transform.position.y) * movementSpeed)));
+                //moveVer = -(Mathf.Abs(player.position.y - transform.position.y) * movementSpeed);
+                moveVer = -movementSpeed;
             }
         }
+
+        if (bullets_transforms != null){
+            if (Mathf.Abs(GetClosestBullet(bullets_transforms).position.y - transform.position.y) <= bulletRange && 
+            Mathf.Abs(GetClosestBullet(bullets_transforms).position.x - transform.position.x) <= bulletRange * 2)
+            {
+                if (GetClosestBullet(bullets_transforms).position.y >= transform.position.y){
+                    moveVer = -movementSpeed*1.5f;
+                }else{
+                    moveVer = movementSpeed*1.5f;
+                }
+            } else{
+            }
+        }
+
+        // Always move the player, it's movement will depend on the values of moveHor and moveVer
+        rb.MovePosition(new Vector2(transform.position.x + moveHor,
+                 transform.position.y + moveVer));
     }
 
     // Calculates the distance between object a and b.
@@ -85,5 +134,20 @@ public class EnemyBehaviour : MonoBehaviour
         dist = a.x - b.x;
 
         return dist;
+    }
+
+    Transform GetClosestBullet(Transform[] bullets)
+    {
+        Transform tMin = null;
+        float minDist = Mathf.Infinity;
+        Vector3 currentPos = transform.position;
+        foreach (Transform t in bullets){
+            float dist = Vector3.Distance(t.position, currentPos);
+            if (dist < minDist){
+                tMin = t;
+                minDist = dist;
+            }
+        }
+        return tMin;
     }
 }

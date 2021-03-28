@@ -20687,9 +20687,11 @@ MonoBehaviour:
   player: {fileID: 702138485}
   movementSpeed: 0.06
   rb: {fileID: 1693747429}
-  rangeDiameter: 0.1
+  yRangeDiameter: 0.1
+  bulletRange: 3
   neededDistanceFromPlayer: 7
   moveBackDistanceFromPlayer: 6
+  bullets_transforms: []
 --- !u!114 &1693747433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20740,8 +20742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e088668633887364e95fcfa0636afa1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  numberOfHearts: 3
+  health: 10
+  numberOfHearts: 10
   hearts: []
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
