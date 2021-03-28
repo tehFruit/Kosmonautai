@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DamageController : MonoBehaviour
 {
@@ -95,7 +96,7 @@ public class DamageController : MonoBehaviour
             
 
         if (gameObject.tag == "Player")
-            Debug.Log("Death"); // Death screen goes here
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public IEnumerator FlashRed()
