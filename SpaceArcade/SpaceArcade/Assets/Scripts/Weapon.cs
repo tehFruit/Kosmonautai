@@ -7,22 +7,23 @@ public class Weapon : MonoBehaviour
 
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public float fireRate = 15f;
+    private float nextTimeToFire = 0f;
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            nextTimeToFire = Time.time + 2.5f / fireRate;
             Shoot();
         }
-      
-
 
     }
-    
 
     void Shoot()
     {
         //shooting logic
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject impactGo = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Destroy(impactGo, 2f);
     }
 }
