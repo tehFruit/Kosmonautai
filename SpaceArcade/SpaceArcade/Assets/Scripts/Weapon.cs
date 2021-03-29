@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +14,7 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
-            nextTimeToFire = Time.time + 2.5f / fireRate;
+            nextTimeToFire = Time.time + 4f / fireRate;
             Shoot();
         }
 

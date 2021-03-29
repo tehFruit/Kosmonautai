@@ -36,17 +36,39 @@ public class DamageController : MonoBehaviour
         // If enemy does not die
         /*if (obj.gameObject.tag == "Enemy")
             health--;*/
-
-        if(obj.gameObject.tag == "Bullet")
+        if(gameObject.tag == "Enemy")
         {
-            Destroy(obj.gameObject);
+            if (obj.gameObject.tag == "Bullet" )
+            {
+                Destroy(obj.gameObject);
+                health--;
+                StartCoroutine(FlashRed());
+
+                invulnerabilityTimer = 0.5f;
+                gameObject.layer = 6;
+            }
+            if (obj.gameObject.tag == "enemy_bullet")
+            {
+                Destroy(obj.gameObject);
+            }
+
+
         }
 
-        health--;
-        StartCoroutine(FlashRed());
-        
-        invulnerabilityTimer = 0.5f;
-        gameObject.layer = 6;
+        if (gameObject.tag == "Player")
+        {
+            if (obj.gameObject.tag == "enemy_bullet")
+            {
+                Destroy(obj.gameObject);
+            }
+
+            health--;
+            StartCoroutine(FlashRed());
+
+            invulnerabilityTimer = 0.5f;
+            gameObject.layer = 6;
+        }
+
     }
 
     void Update()

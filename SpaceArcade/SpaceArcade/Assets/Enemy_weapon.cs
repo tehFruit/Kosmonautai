@@ -6,10 +6,15 @@ public class Enemy_weapon : MonoBehaviour
 {
 
     public Transform firePoint;
+    public float range;
+    private float distToPlayer;
+
+
+
     public GameObject bulletPrefab2;
 
-    public float fireRate = 15f;
-    private float nextTimeToFire = 10f;
+    public float fireRate = 10f, timeBTWshoots;
+    private float nextTimeToFire = 3f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,15 +26,20 @@ public class Enemy_weapon : MonoBehaviour
     {
         if (Time.time >= nextTimeToFire)
         {
-            nextTimeToFire = Time.time + 2.5f / fireRate;
-            Shoot();
+            nextTimeToFire = Time.time + 4f / fireRate;
+            StartCoroutine(Shoot());
         }
+
+        //distToPlayer = Vector2.Distance(transform.position, player.position);
+        
 
     }
 
-    void Shoot()
+    IEnumerator Shoot()
     {
+        yield return new WaitForSeconds(timeBTWshoots);
         GameObject bullet2 = Instantiate(bulletPrefab2, firePoint.position, firePoint.rotation);
         Destroy(bullet2, 2f);
+      //  bullet2.GetComponent<Rigidbody2D>().velocity = new Vector2 
     }
 }
