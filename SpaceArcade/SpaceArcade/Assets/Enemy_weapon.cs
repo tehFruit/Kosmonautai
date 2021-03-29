@@ -13,8 +13,8 @@ public class Enemy_weapon : MonoBehaviour
 
     public GameObject bulletPrefab2;
 
-    public float fireRate = 10f, timeBTWshoots;
-    private float nextTimeToFire = 3f;
+    public float fireRate = 2f, timeBTWshoots;
+    private float nextTimeToFire = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +26,7 @@ public class Enemy_weapon : MonoBehaviour
     {
         if (Time.time >= nextTimeToFire)
         {
-            nextTimeToFire = Time.time + 4f / fireRate;
+            nextTimeToFire = Time.time + 8f / fireRate;
             StartCoroutine(Shoot());
         }
 
