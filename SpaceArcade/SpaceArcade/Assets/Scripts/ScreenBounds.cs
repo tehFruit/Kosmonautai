@@ -12,7 +12,7 @@ public class ScreenBounds : MonoBehaviour
     }*/
 
     // New version
-    private Vector2 screenBounds;
+    public Vector2 screenBounds;
 
     private void Start()
     {
