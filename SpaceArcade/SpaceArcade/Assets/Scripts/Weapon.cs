@@ -1,6 +1,7 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class Weapon : MonoBehaviour
 {
@@ -9,9 +10,17 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public float fireRate = 15f;
     private float nextTimeToFire = 0f;
+    PhotonView photon;
+
+    void Start()
+    {
+        photon = GetComponent<PhotonView>();
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (!photon.IsMine) return;
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 4f / fireRate;

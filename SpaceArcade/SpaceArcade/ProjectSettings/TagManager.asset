@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Cube
   - enemy_bullet
+  - Beam
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Invulnerability
-  - 
+  - Player
   - 
   - 
   - 

@@ -83,7 +83,7 @@ public class DamageController : MonoBehaviour
         {
             for (int i = 0; i < hearts.Length; i++)
             {
-                // Sets the health hearts to empty of full
+                /*// Sets the health hearts to empty of full
                 if (i < health)
                     hearts[i].sprite = fullHeart;
                 else
@@ -93,7 +93,7 @@ public class DamageController : MonoBehaviour
                 if (i < numberOfHearts)
                     hearts[i].enabled = true;
                 else
-                    hearts[i].enabled = false;
+                    hearts[i].enabled = false;*/
             }
         }
 
