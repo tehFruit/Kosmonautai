@@ -27,6 +27,7 @@ public class Enemy_weapon : MonoBehaviour
         {
             nextTimeToFire = Time.time + Random.Range(fireRate, fireRate + 1);
             StartCoroutine(Shoot());
+            SoundScript.PlaySound("fire");
         }
 
         //distToPlayer = Vector2.Distance(transform.position, player.position);

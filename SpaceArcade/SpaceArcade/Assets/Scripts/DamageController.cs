@@ -17,8 +17,8 @@ public class DamageController : MonoBehaviour
 
     int initialLayer;
 
-    int score = 0;
-    public Text scoreText;
+    //int score = 0;
+    //public Text scoreText;
 
     public SpriteRenderer sprite;
  
@@ -42,15 +42,16 @@ public class DamageController : MonoBehaviour
             {
                 Destroy(obj.gameObject);
                 health--;
+                SoundScript.PlaySound("hit");
                 StartCoroutine(FlashRed());
 
                 invulnerabilityTimer = 0.5f;
                 gameObject.layer = 6;
             }
-            if (obj.gameObject.tag == "enemy_bullet")
+            /*if (obj.gameObject.tag == "enemy_bullet")
             {
-                Destroy(obj.gameObject);
-            }
+                Destroy(obj.gameObject);  // is enemy gets hit by enemy bullet, bullet disappears?
+            }*/
 
 
         }
@@ -64,6 +65,7 @@ public class DamageController : MonoBehaviour
 
             health--;
             StartCoroutine(FlashRed());
+            SoundScript.PlaySound("hit");
 
             invulnerabilityTimer = 0.5f;
             gameObject.layer = 6;
@@ -101,7 +103,11 @@ public class DamageController : MonoBehaviour
             gameObject.layer = initialLayer;
 
         if (health <= 0)
+        {
             Die();
+            SoundScript.PlaySound("explode");
+        }
+
     }
 
     /// <summary>
@@ -112,8 +118,9 @@ public class DamageController : MonoBehaviour
         if (gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
-            score++;
+            //score++;
             //scoreText.text = score.ToString();
+            ScoreScript.score += 100;
         }
             
 
