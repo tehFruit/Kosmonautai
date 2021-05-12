@@ -8,7 +8,7 @@ public class StupidEnemyBehaviour : MonoBehaviour
     float moveHor;
     float moveVer;
     public float moveSpeed = 0.05f;
-    public int maximumApproach = 7;
+    public float maximumApproach = 5;
     
     void FixedUpdate(){
         if (transform.position.x > maximumApproach){

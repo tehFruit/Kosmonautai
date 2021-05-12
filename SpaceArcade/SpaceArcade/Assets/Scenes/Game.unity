@@ -1534,8 +1534,6 @@ MonoBehaviour:
   stupidEnemyPrefab: {fileID: 234430494051309627, guid: 98fa0901bdb1a894aa993adedcdcd7e4, type: 3}
   cleverEnemyPrefab: {fileID: 1119137933404389719, guid: 5f62117273973a94284fe523e271e623, type: 3}
   waveNumber: 0
-  stupidWave: 0
-  respawnTime: 1
   scrBound: {x: 0, y: 0, z: 0}
 --- !u!4 &2123986220
 Transform:
@@ -1630,6 +1628,10 @@ PrefabInstance:
       propertyPath: camera_
       value: 
       objectReference: {fileID: 519420032}
+    - target: {fileID: 5894228217183998038, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
+      propertyPath: maximumApproach
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5894228217183998057, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
       propertyPath: health
       value: 3
