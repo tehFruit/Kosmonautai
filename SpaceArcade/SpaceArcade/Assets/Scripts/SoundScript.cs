@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundScript : MonoBehaviour
 {
     public static AudioClip hit, fire, explode;
     static AudioSource src;
+    public AudioMixer mixer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +17,6 @@ public class SoundScript : MonoBehaviour
         explode = Resources.Load<AudioClip>("explosion");
 
         src = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public static void PlaySound(string sound)
@@ -36,5 +33,10 @@ public class SoundScript : MonoBehaviour
                 src.PlayOneShot(explode);
                 break;
         }
+    }
+
+    public void SetLevel(float sliderValue)
+    {
+        mixer.SetFloat("Volume", Mathf.Log10 (sliderValue) * 20);
     }
 }

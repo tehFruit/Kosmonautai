@@ -773,6 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4657da56289466147a391fb25021d1c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mixer: {fileID: 0}
 --- !u!82 &928044907
 AudioSource:
   m_ObjectHideFlags: 0
@@ -782,7 +783,7 @@ AudioSource:
   m_GameObject: {fileID: 928044905}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 281bdb4867aa3074980911a6c41aa058, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
