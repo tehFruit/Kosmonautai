@@ -125,7 +125,7 @@ public class DamageController : MonoBehaviour
             
 
         if (gameObject.tag == "Player")
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(3);
     }
 
     public IEnumerator FlashRed()
