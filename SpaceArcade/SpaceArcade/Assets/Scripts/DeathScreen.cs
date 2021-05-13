@@ -12,6 +12,6 @@ public class DeathScreen : MonoBehaviour
     
     public void TitleMeniu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
 }

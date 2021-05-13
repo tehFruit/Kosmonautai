@@ -125,7 +125,7 @@ public class DamageController : MonoBehaviour
             
 
         if (gameObject.tag == "Player")
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene("Death Screen");
     }
 
     public IEnumerator FlashRed()
