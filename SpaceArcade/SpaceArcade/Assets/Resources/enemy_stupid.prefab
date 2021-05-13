@@ -153,6 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 4919535391954605910}
   range: 0
+  bulletSpeed: 0
   bulletPrefab2: {fileID: 338503214711277310, guid: bc87dd57326684b469c93e7162571e23, type: 3}
   fireRate: 10
   timeBTWshoots: 0
@@ -168,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a249afa6e1795243aec632e365c5fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenBounds: {x: 0, y: 0}
 --- !u!114 &5894228217183998057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,7 +187,6 @@ MonoBehaviour:
   hearts: []
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
-  scoreText: {fileID: 0}
   sprite: {fileID: 5894228217183998061}
 --- !u!114 &5894228217183998038
 MonoBehaviour:
@@ -201,6 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5894228217183998058}
   moveSpeed: 0.05
+  maximumApproach: 5
 --- !u!1 &4142328863572932123
 GameObject:
   m_ObjectHideFlags: 0

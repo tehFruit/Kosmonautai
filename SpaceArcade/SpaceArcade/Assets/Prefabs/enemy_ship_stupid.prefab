@@ -187,7 +187,6 @@ MonoBehaviour:
   hearts: []
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
-  scoreText: {fileID: 0}
   sprite: {fileID: 9202281751259978856}
 --- !u!114 &9202281751259978835
 MonoBehaviour:
