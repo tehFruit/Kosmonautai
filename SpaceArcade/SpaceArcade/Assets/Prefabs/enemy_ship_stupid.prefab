@@ -187,6 +187,8 @@ MonoBehaviour:
   hearts: []
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
+  enemy: {fileID: 0}
+  explosion: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
   sprite: {fileID: 9202281751259978856}
 --- !u!114 &9202281751259978835
 MonoBehaviour:
@@ -203,6 +205,8 @@ MonoBehaviour:
   rb: {fileID: 9202281751259978863}
   moveSpeed: 0.05
   maximumApproach: 7
+  damageController: {fileID: 0}
+  explosion: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
 --- !u!1 &1658750785634417182
 GameObject:
   m_ObjectHideFlags: 0

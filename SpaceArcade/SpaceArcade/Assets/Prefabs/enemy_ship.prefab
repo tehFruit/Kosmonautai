@@ -219,6 +219,8 @@ MonoBehaviour:
   hearts: []
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
+  enemy: {fileID: 0}
+  explosion: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
   sprite: {fileID: 4460260921424456319}
 --- !u!114 &4899472876527607541
 MonoBehaviour:

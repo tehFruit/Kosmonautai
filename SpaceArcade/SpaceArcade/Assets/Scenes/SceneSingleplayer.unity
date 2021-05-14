@@ -1721,6 +1721,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420032}
     - target: {fileID: 5894228217183998038, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
+    - target: {fileID: 5894228217183998038, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
       propertyPath: maximumApproach
       value: 5
       objectReference: {fileID: 0}
@@ -1728,6 +1732,10 @@ PrefabInstance:
       propertyPath: health
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5894228217183998057, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
     - target: {fileID: 5894228217183998057, guid: c9688aa810b46984e9b4f38023a2b4a6, type: 3}
       propertyPath: scoreText
       value: 

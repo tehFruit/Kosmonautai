@@ -14,6 +14,8 @@ public class DamageController : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    public GameObject enemy;
+    public GameObject explosion;
 
     int initialLayer;
 
@@ -25,6 +27,7 @@ public class DamageController : MonoBehaviour
     void Start()
     {
         initialLayer = gameObject.layer;
+        enemy = gameObject;
     }
 
     /// <summary>
@@ -105,7 +108,6 @@ public class DamageController : MonoBehaviour
         if (health <= 0)
         {
             Die();
-            SoundScript.PlaySound("explode");
         }
 
     }
@@ -113,11 +115,12 @@ public class DamageController : MonoBehaviour
     /// <summary>
     /// Destroys the object and updates the score
     /// </summary>
-    void Die()
+    public void Die()
     {
-        if (gameObject.tag == "Enemy")
+        if (enemy.tag == "Enemy")
         {
-            Destroy(gameObject);
+            Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(enemy);
             //score++;
             //scoreText.text = score.ToString();
             ScoreScript.score += 100;
