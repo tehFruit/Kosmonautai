@@ -1193,6 +1193,14 @@ PrefabInstance:
       propertyPath: ObservedComponents.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9055214113117211057, guid: defad0a07e0525847aa54b9633a54971, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055214113117211057, guid: defad0a07e0525847aa54b9633a54971, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9055214113117211064, guid: defad0a07e0525847aa54b9633a54971, type: 3}
       propertyPath: m_Name
       value: spaceship

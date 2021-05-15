@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartSinglePlayer()
     {
+        ScoreScript.score = 0;
         SceneManager.LoadScene("SceneSingleplayer");
     }
 
