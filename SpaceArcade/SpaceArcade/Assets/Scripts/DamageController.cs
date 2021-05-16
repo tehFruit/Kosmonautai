@@ -120,6 +120,7 @@ public class DamageController : MonoBehaviour
         if (enemy.tag == "Enemy")
         {
             Instantiate(explosion, transform.position, transform.rotation);
+            SoundScript.PlaySound("explode");
             Destroy(enemy);
             //score++;
             //scoreText.text = score.ToString();

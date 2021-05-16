@@ -6,6 +6,6 @@ public class ExplosionSound : MonoBehaviour
 {
     void Start()
     {
-        SoundScript.PlaySound("explode");
+        //SoundScript.PlaySound("explode");
     }
 }

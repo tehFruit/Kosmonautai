@@ -22,7 +22,7 @@ public class MyPhoton : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.Instantiate("spaceship", playerPrefab.transform.localPosition, playerPrefab.transform.rotation);
+        PhotonNetwork.Instantiate("MP_spaceship", playerPrefab.transform.localPosition, playerPrefab.transform.rotation);
     }
 
     // Update is called once per frame
