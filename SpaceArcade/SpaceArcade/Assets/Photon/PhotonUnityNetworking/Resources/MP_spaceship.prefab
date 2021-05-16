@@ -14456,10 +14456,10 @@ GameObject:
   - component: {fileID: 9055214113117211057}
   - component: {fileID: 9055214113117211068}
   - component: {fileID: 9055214113117211059}
-  - component: {fileID: 9055214113117211056}
   - component: {fileID: -2257098026562252165}
   - component: {fileID: -5011046588548717919}
   - component: {fileID: 6675877794026370526}
+  - component: {fileID: -3728122096512760638}
   m_Layer: 7
   m_Name: MP_spaceship
   m_TagString: Player
@@ -14609,30 +14609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   screenBounds: {x: 0, y: 0}
---- !u!114 &9055214113117211056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9055214113117211064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e088668633887364e95fcfa0636afa1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 3
-  numberOfHearts: 3
-  hearts:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  fullHeart: {fileID: 21300000, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
-  emptyHeart: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
-  enemy: {fileID: 0}
-  explosion: {fileID: 0}
-  sprite: {fileID: 9055214113117211071}
 --- !u!114 &-2257098026562252165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14687,3 +14663,23 @@ MonoBehaviour:
   firePoint: {fileID: 9055214112950044996}
   bulletPrefab: {fileID: 5332683534582320152, guid: af34a383785cc9049bcf4fa85fe991ce, type: 3}
   fireRate: 15
+--- !u!114 &-3728122096512760638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9055214113117211064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedcf2e112fb70c47b05176fd7cabf22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  numberOfHearts: 3
+  hearts: []
+  fullHeart: {fileID: 21300000, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
+  emptyHeart: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
+  enemy: {fileID: 0}
+  explosion: {fileID: 2371602238083526627, guid: 06ed54393e40e16458cfaee84337a576, type: 3}
+  sprite: {fileID: 9055214113117211071}

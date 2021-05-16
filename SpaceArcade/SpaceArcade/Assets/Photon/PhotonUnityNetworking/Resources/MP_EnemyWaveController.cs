@@ -17,7 +17,7 @@ public class MP_EnemyWaveController : MonoBehaviour
 
     void Update(){
         allEnemies = GameObject.FindGameObjectsWithTag("Enemy");
-        if (allEnemies.Length == 0 && PhotonNetwork.IsMasterClient){
+        if (allEnemies.Length == 0){
             spawnWave();
         }
     }
